@@ -3,7 +3,7 @@
  * active_flag - calculates the active flags in the strng
  * @format: pointer to the formatted string
  * @index: pointer to the index of the argument list
- * Return: active flags
+ * Return: active flags calculate
  */
 int active_flag(const char *format, int *index)
 {
