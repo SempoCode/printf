@@ -22,7 +22,7 @@ int active_flag(const char *format, int *index)
 				flags |= FLAG_SPACE;
 				break;
 			case '#':
-				flags |= FLAG_HUSH;
+				flags |= FLAG_HASH;
 				break;
 			case '0':
 				flags |= FLAG_ZERO;

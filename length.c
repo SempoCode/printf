@@ -18,9 +18,7 @@ int length_modifier(const char *format, int *index)
 			length = LENGTH_SHORT;
 			break;
 		default:
-			*index--;
 			break;
 	}
-	*index++;
 	return (length);
 }

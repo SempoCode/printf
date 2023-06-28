@@ -12,13 +12,15 @@
 int reverse_string(va_list str, char buff[], int flags, int width,
 int precision, int length)
 {
+	int count = 0;
+	int l = 0;
+	int i;
+	char *s = va_arg(str, char *);
+
 	NOT_USED(buff);
 	NOT_USED(flags);
 	NOT_USED(length);
 	NOT_USED(width);
-
-	int count = 0, l = 0, i;
-	char *s = va_arg(str, char *);
 
 	if (s == NULL)
 	{
