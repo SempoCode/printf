@@ -7,7 +7,7 @@
  * @width: formatted string widtah
  * @precision: precision for formatted string
  * @length: length modifier
- * Return: number of characters
+ * Return: number of characters printed
  */
 int reverse_string(va_list str, char buff[], int flags, int width,
 int precision, int length)

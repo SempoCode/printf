@@ -3,7 +3,7 @@
  * length_modifier - calculates the argument length
  * @format: pointer to the format string
  * @index: pointer to the index of argument list
- * Return: length
+ * Return: length calculated
  */
 int length_modifier(const char *format, int *index)
 {
